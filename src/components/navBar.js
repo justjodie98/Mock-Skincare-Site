@@ -1,8 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Component, useState } from "react";
-import { RiShoppingBagLine } from "react-icons/ri";
-import { FaUserAlt } from "react-icons/fa";
 import { ImSearch } from "react-icons/im";
 
 export default function NavBar() {
@@ -72,10 +70,10 @@ export default function NavBar() {
             <ImSearch />
           </a>
           <a href="">
-            <RiShoppingBagLine />
+   
           </a>
           <a href="">
-            <FaUserAlt />
+    
           </a>
         </ul>
       </div>

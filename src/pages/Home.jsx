@@ -1,8 +1,7 @@
 import { Component } from "react";
-import Blog from "src/components/blog.js";
-import Banner from "src/components/banner.js";
-import Media from "src/components/media.js";
-import "../App.css";
+import Blog from "../components/blog";
+import Banner from "../components/banner";
+import Media from "../components/media";
 
 export default function Home() {
   return (
